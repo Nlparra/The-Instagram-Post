@@ -5,25 +5,20 @@ body{
 .container{
     background: black;
     height: 605px;
-    width: 44%;
-    right: -27%;
+    width: 100%
 }
 
-.instagram-post{
+.instagram-post {
+    width: 30%;
+    margin: 0 auto;
     background:white;
     height: 491px;
-    widh: 40%;
-    width: 66%;
-    top: 35%;
-    right: 400px;
-    right: 17%;
-    top: 8%;
 }
 
 h3 {
-    top: -1%;
-    right: 75%;
     font-size: 16px;
+    margin-left: 24px;
+    margin-top: -24px;
 }
 
 p {
@@ -53,4 +48,17 @@ img {
 
 .far.fa-bookmark {
     right: 5%;
+}
+
+.icons {
+    margin: 2%;
+}
+
+.head {
+    height: 10%;
+}
+
+.name {
+    margin-left: 24px;
+    margin-top: -4%;
 }
